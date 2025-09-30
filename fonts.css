@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 100;
+  font-style: normal;
+  src: local('Raleway Thin'), local('Raleway-Thin'),
+    url("/font/Raleway-Thin.eot");
+  src: local('Raleway Thin'), local('Raleway-Thin'),
+    url("/font/Raleway-Thin.eot?#iefix") format("embedded-opentype"),
+    url("/font/Raleway-Thin.otf") format("opentype"),
+    url("/font/Raleway-Thin.svg") format("svg"),
+    url("/font/Raleway-Thin.ttf") format("truetype"),
+    url("/font/Raleway-Thin.woff") format("woff"),
+    url("/font/Raleway-Thin.woff2") format("woff2");
+}    
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-style: normal;
+  src: local('Raleway'), url("/font/Raleway-Regular.eot");
+  src: local('Raleway'), url("/font/Raleway-Regular.eot?#iefix") format("embedded-opentype"), 
+  /* все как в первом, имя файлов в соответствии с начертанием */ 
+}
+/*---2---*/
+@font-face {
+  font-family: "Raleway-ThinItalic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/font/Raleway-Thin-Italic.eot");
+  src: url("/font/Raleway-Thin-Italic.eot?#iefix") format("embedded-opentype"),
+  /* все как в первом, имя файлов в соответствии с начертанием */
+}
+@font-face {
+  font-family: "Raleway-Italic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/font/Raleway-Regular-Italic.eot");
+  src: url("/font/Raleway-Regular-Italic.eot?#iefix") format("embedded-opentype"), 
+  /* все как в первом, имя файлов в соответствии с начертанием */ 
+}
